@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Timestamp Service</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body>
+	<div class="container-fluid" style="min-height: 95%">
+		<h1>Timestamp microservice</h1>
+	<p>Given a valid date endpoint returns an object containing date in both unix and natural formats else returns an object with null values</p>
+	<p>eg:</p>
+	<p>Valid endpoints</p>
+	<ul>
+		<li><a href="/December 1, 2014">/December 1, 2014</a> or <a href="/December%201,%202014">/December%201,%202014</a></li>
+		<li><a href="/1417372200">/1417372200</a></li>
+		<p>Returns</p>
+		<p>{'unix':1417372200,'natural':"December 01, 2014"}</p>
+	</ul>
+	<p>Invalid endpoint</p>
+	<ul>
+		<li><a href="/hello">/hello</a></li>
+		<p>Returns</p>
+		<p>{'unix':null,'natural':null}</p>
+	</ul>
+	
+	</div>
+	<footer class="footer">
+      <div class="container text-center">
+        Created by <a href="https://www.mohdsubhan.me" target="_blank">Subhan</a>
+      </div>
+    </footer>
+	
+</body>
+</html>
