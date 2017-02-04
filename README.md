@@ -9,7 +9,7 @@ An API that takes a given time in either unix or human readable form and returns
 1. [node](https://nodejs.org/en/)
 2. [npm](https://www.npmjs.com)
 
-###Installing
+###Installation
 Clone the project
 
 ```git
