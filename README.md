@@ -34,7 +34,7 @@ to install the dependencies
 [/1417372200](https://frantic-factory.gomix.me/1417372200)
 
 Returns
-```json
+```javascript
 {'unix': 1417372200,'natural': "December 01, 2014"}
 ```
 
@@ -43,7 +43,7 @@ Returns
 [/hello](https://frantic-factory.gomix.me/1417372200)
 
 Returns
-```json
+```javascript
 {'unix': null,'natural': null}
 ```
 
